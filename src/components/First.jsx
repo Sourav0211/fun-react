@@ -10,9 +10,9 @@ export default function First() {
       <h2 className='question'>Will You Go Out With Me?</h2>
       <div className='buttons'>
       <button className='yesButton'>Yes</button>
-      <button className='noButton'>
-        <NavLink exact to='/second'>No</NavLink>
-      </button>
+       
+      <NavLink  to='/second' className='noButton'>No</NavLink>
+      
       </div>
       
     </div>

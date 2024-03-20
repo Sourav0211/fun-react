@@ -10,7 +10,7 @@ import First from './components/First';
 function App() {
   return (
    
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route exact path='/' element={<First/>}></Route>
       <Route exact path='/second' element={<SecondQuestion/>}></Route>

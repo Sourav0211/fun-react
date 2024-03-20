@@ -10,9 +10,9 @@ function SecondQuestion() {
       <h2 className='question'>Itni bhi jaldi na mat bol</h2>
       <div className='buttons'>
       <button className='yesButton'>Yes</button>
-      <button className='noButton'>
-        <NavLink exact to='/third'>No</NavLink>
-      </button>
+       
+        <NavLink to='/third' className='noButton'>No</NavLink>
+      
       </div>
     </div>
   )

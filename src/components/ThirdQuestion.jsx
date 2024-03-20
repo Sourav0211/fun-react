@@ -9,9 +9,9 @@ function ThirdQuestion() {
       <h2 className='question'>Man bhi ja na</h2>
       <div className='buttons'>
       <button className='yesButton'>Yes</button>
-      <button className='noButton'>
-        <NavLink exact to='/fourth'>No</NavLink>
-      </button>
+   
+      <NavLink to='/fourth'  className='noButton'>No</NavLink>
+
       </div>
     </div>
   );
