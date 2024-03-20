@@ -9,9 +9,11 @@ function SecondQuestion() {
       <img src="https://media.tenor.com/sV2IT_jzKj4AAAAi/mochi-mochimochi.gif" width="300px" height="300px" alt="tkthao219-bubududu"></img>
       <h2 className='question'>Itni bhi jaldi na mat bol</h2>
       <div className='buttons'>
-      <button className='yesButton'>Yes</button>
-       
-        <NavLink to='/third' className='noButton'>No</NavLink>
+      <button className='yesButton'>
+      <NavLink to='/final'>Yes</NavLink></button>
+       <button className='noButton'>
+        <NavLink to='/third' >No</NavLink>
+      </button>
       
       </div>
     </div>

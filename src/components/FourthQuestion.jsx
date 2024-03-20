@@ -20,9 +20,9 @@ function FourthQuestion() {
       <img src="https://media.tenor.com/1s9vS3-IhwwAAAAi/tkthao219-bubududu.gif" width={300} height={300} alt="tkthao219-bubududu"></img>
       <h2 className='question'>Kyu itna bhav khati hai?</h2>
       <div className='buttons'>
-         
-       <NavLink to='/final' className='yesButton'>Yes</NavLink>
-        
+       <button className='yesButton'>
+       <NavLink to='/final' >Yes</NavLink>
+       </button>
         <button onMouseMove={handleMouseMove} style={buttonStyle}
         className='noButton'>No</button>
       </div>
